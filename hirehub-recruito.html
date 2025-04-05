@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireHub Recruito - Recruitment Agency</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #0c5b6e;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #1c74b3;
+        }
+
+        .hero-section {
+            background-color: #1c74b3;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero-section h2 {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .content {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            color: #0c5b6e;
+            margin-bottom: 30px;
+        }
+
+        .content ul {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .services-section {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            font-size: 2.5em;
+            color: #0c5b6e;
+            margin-bottom: 40px;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-card h3 {
+            color: #1c74b3;
+            margin-bottom: 15px;
+        }
+
+        .contact-section {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section h2 {
+            font-size: 2.5em;
+            color: #0c5b6e;
+        }
+
+        .contact-section p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .contact-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        footer .footer-info {
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HireHub Recruito</h1>
+    <p>Your Partner in Recruitment & Reverse Recruiting</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero-section">
+    <h2>Get the Talent You Need, Simplifying Your Acquisition</h2>
+    <p>Let us help you find the perfect fit for your business or career goals with our expert recruitment services.</p>
+</section>
+
+<div class="content" id="about">
+    <h2>What is Reverse Recruiting?</h2>
+    <p>Reverse recruiting is a service where we take the hassle out of job hunting. We handle the job search, applications, and interview scheduling, while you focus on excelling in your interviews. Here's what we do:</p>
+    <ul>
+        <li>Conduct a detailed career assessment to align with the best opportunities</li>
+        <li>Update resumes and LinkedIn profiles to match job requirements</li>
+        <li>Submit job applications on your behalf</li>
+        <li>Notify you of interview opportunities</li>
+        <li>Conduct mock interviews to ensure you’re ready</li>
+        <li>Provide career guidance and suggest relevant courses</li>
+    </ul>
+
+    <h2>Who Can Benefit from This Service?</h2>
+    <p>Our reverse recruiting services are designed for:</p>
+    <ul>
+        <li>Professionals with limited time to search for jobs</li>
+        <li>Job seekers who prefer a more streamlined, hands-off approach</li>
+        <li>Individuals facing challenges in finding the right job</li>
+    </ul>
+
+    <h2>How is Reverse Recruiting Different from Traditional Recruiting?</h2>
+    <p>While traditional recruiters represent companies looking for talent, reverse recruiters work directly for job seekers, providing a more personalized and supportive service to help you find the job that fits your goals.</p>
+</div>
+
+<div class="services-section" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+        <div class="service-card">
+            <h3>Resume & LinkedIn Optimization</h3>
+            <p>We ensure your resume and LinkedIn profile stand out to recruiters and hiring managers with tailored content and impactful design.</p>
+        </div>
+        <div class="service-card">
+            <h3>Job Search & Application</h3>
+            <p>We apply for jobs on your behalf based on your goals, streamlining the job search process and maximizing your opportunities.</p>
+        </div>
+        <div class="service-card">
+            <h3>Interview Preparation</h3>
+            <p>Our mock interviews will help you prepare for success, ensuring you're confident and ready for real interviews.</p>
+        </div>
+        <div class="service-card">
+            <h3>Career Counseling</h3>
+            <p>Receive guidance and advice on career development, job targeting, and additional courses or certifications to strengthen your candidacy.</p>
+        </div>
+    </div>
+</div>
+
+<div class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you're ready to take your career to the next level or need help finding top talent, get in touch with us!</p>
+    <p>Email: <strong>aqureshig2@gmail.com</strong></p>
+    <p>Phone: <strong>+923047434249</strong></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-abdullah-510287204/" target="_blank">View LinkedIn Profile</a></p>
+    <p>Upwork: <a href="https://www.upwork.com/freelancers/abdullahq41?mp_source=share" target="_blank">View Upwork Profile</a></p>
+    <a href="https://www.upwork.com/freelancers/abdullahq41?mp_source=share" class="contact-button">Contact on Upwork</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 HireHub Recruito | All Rights Reserved</p>
+    <div class="footer-info">
+        <p><strong>CEO & Co-Founder:</strong> Muhammad Abdullah</p>
+        <p><strong>Sr HR IT Recruiter</strong></p>
+    </div>
+</footer>
+
+</body>
+</html>
